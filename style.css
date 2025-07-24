@@ -9,7 +9,7 @@
     font-weight: 400;
 }
 body {
-    width: 100vw;
+    /* width: 100vw; */
 }
 .header-container {
     display: flex;
@@ -17,7 +17,7 @@ body {
     width: 50vw;
 }
 .header-logo {
-    width: 700px;
+    height: 200px;
 }
 .lang-btn-container {
     width: 100vw;
@@ -91,12 +91,14 @@ input:checked + .slider:before {
     width: 100%;
 }
 .hero-carousel {
-    width: 100%;
+    width: 50%;
     max-width: 500px;
     margin: 0 auto;
     box-shadow: 2px 5px 10px #262626;
     border-radius: 40px;
     position: relative; /* This is CRITICAL for the absolute positioning of the slides */
+    right: 350px;
+    bottom: 100px;
     aspect-ratio: 16 / 9; /* This gives the container a consistent shape */
 }
 .mySlides {
@@ -238,7 +240,7 @@ input:checked + .slider:before {
     display: flex;
     justify-content: center;
     width: auto;
-    height: 523px;
+    height: 370px;
     margin-right: 15px;
     border: 5px solid #ffb762;
     margin-bottom: 10px;
