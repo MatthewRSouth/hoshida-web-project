@@ -86,13 +86,14 @@ body {
     }
     .header-logo {
         height: 50px;
-        left: 20px;
+        left: 100px;
+        top: 3em;
     }
     .hero-orange-container {
         width: 90%;
         height: 50vh;
         position: relative;
-        bottom: 130px;
+        bottom: 70px;
     }
     .text-container {
         width: 100%;
@@ -115,25 +116,28 @@ body {
         height: 150px;
         background-color: grey;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         position: relative;
+        left: 30px;
+        top: 10px;
+        border-radius: 10px;
+        border: solid black 2px;
     }
     .website {
         position: relative;
-        right: 10px;
     }
     .instagram {
         position: relative;
-        right: 100px;
     }
     .website-icon {
         position: relative;
-        right: 130px;
+        right: 100px;
+        bottom: 105px;
     }
     .instagram-icon {
         position: relative;
-        bottom: 40px;
+        bottom: 80px;
         height: 75px;
-        right: 220px;
+        right: 90px;
     }
 }

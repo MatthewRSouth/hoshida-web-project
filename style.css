@@ -315,7 +315,7 @@ input:checked + .slider:before {
         grid-row: 1;
         grid-column: 1;
         position: relative;
-        top: 100px;
+        top: 200px;
     }
     .hero-container {
         grid-template-columns: 1fr;
@@ -339,7 +339,8 @@ input:checked + .slider:before {
         width: 350px;
         margin: 0 auto;
         position: relative;
-        top: 50px;
+        top: 100px;
+        left: 0px;
     }
     .mySlides {
         grid-row: 1;
